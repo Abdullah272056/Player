@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="1dp"
+        android:background="#8BC34A">
+
+        <ImageView
+            android:id="@+id/imgSong"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="10dp"
+            android:src="@drawable/ic_baseline_audiotrack_24"/>
+
+        <TextView
+            android:gravity="center"
+            android:ellipsize="marquee"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:textStyle="italic"
+            android:singleLine="true"
+            android:text="Song Name"
+            android:id="@+id/textSongName"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="75dp"
+            android:padding="6dp"
+            android:textColor="#F9FDFD"
+            android:textSize="20sp"/>
+
+
+    </RelativeLayout>
+</RelativeLayout>
